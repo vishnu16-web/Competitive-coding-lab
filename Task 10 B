@@ -1,0 +1,22 @@
+Program:
+
+include <stdio.h>
+
+nsigned int reverseBits (unsigned int um) { unsigned int reversed = 0;
+
+ht bits = sizeof(num) * 8;
+
+or (int i = 0; i < bits; i++) { if (num & (1<<
+
+){
+
+eversed |= 1 << (bits - 1 - i);
+
+eturn reversed;
+
+nt main() {
+
+unsigned int num = 10; printf("%u\n",
+
+num); printf("%u\n", reverseBits(num));
+return 0;
